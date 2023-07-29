@@ -1,0 +1,45 @@
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    background-color: #F5F5F5;
+    color: #5b5851;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 200px 200px;
+    
+    gap: 30px;
+}
+
+.first {
+    grid-column: span 2;
+}
+
+.rounded {
+    border-radius: 0.5em;
+}
+
+.card {
+    background-color: blue;
+}
+
+.flex-container {
+    display: flex;
+    gap: 30px;
+}
+
+.flex-card {
+    background-color: plum;
+    border: 2px solid #ccc;
+    block-size: 100px;
+    flex: 1;
+}
+.first-flex {
+    flex:2
+}
+
+.second-flex {
+    flex: 0.5;
+}
