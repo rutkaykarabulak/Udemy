@@ -1,0 +1,52 @@
+html {
+    font-family: 'Sono', 'sans-serif';
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.plan-features {
+    list-style: none;
+}
+
+li {
+    margin-block-end: 1rem;
+}
+
+/* Card */
+.pricing-plan {
+    background-color: rgb(242, 242, 242);
+    flex-basis: 350px;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.plan-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.plan-price {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.plan-button {
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}
+
+@media(max-width:1024px) {
+    .pricing-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
