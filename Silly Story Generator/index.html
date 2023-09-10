@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="rutkaykarabulak@gmail.com">
+    <meta name="description" content="This website generates you silly stories">
+    <script src="index.js" defer></script>
+    <title>Silly Story Generator</title>
+    <style>
+              body {
+        font-family: helvetica, sans-serif;
+        width: 350px;
+      }
+
+      label {
+        font-weight: bold;
+      }
+
+      div {
+        padding-bottom: 20px;
+      }
+
+      input[type="text"] {
+        padding: 5px;
+        width: 150px;
+      }
+
+      p {
+        background: #ffc125;
+        color: #5e2612;
+        padding: 10px;
+        visibility: hidden;
+      }
+    </style>
+</head>
+<body>
+    <section id="story">
+        <div>
+        <label for="customName">Enter custom name:</label>
+        <input type="text" id="customName">
+        </div>
+        <div>
+            <label for="radioUS">US</label>
+            <input type="radio" name="USUK" id="radioUS" checked value="US">
+            <label for="radioUK">UK</label>
+            <input type="radio" name="USUK" id="radioUK" value="UK">
+        </div>
+
+        <div>
+            <button id="generate">Generate a silly story</button>
+        </div>
+
+        <p id="story"></p>
+    </section>
+</body>
+</html>
