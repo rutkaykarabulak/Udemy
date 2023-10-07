@@ -1,0 +1,27 @@
+html {
+    font-family: 'Lato', sans-serif;
+    padding: 0 2vw;
+    font-size: 36px;
+    background-color: #F5F5F5;
+    color: #5b5851;
+}
+
+.container {
+    display: inline-flex;
+    gap: 0.1rem;
+    border: 2px solid #ccc;
+    color: whitesmoke;
+    flex-direction: column;
+    
+}
+
+.container > * {
+    flex-basis: 100px;
+}
+.red {background-color: rgb(220, 51, 51);}
+.orange {background-color: orange;}
+.yellow {background-color: rgb(208, 208, 17);}
+.green {background-color: rgb(39, 181, 39);}
+.indigo {background-color: indigo;}
+.purple {background-color: palevioletred;}
+.blue {background-color: rgb(68, 68, 247);}

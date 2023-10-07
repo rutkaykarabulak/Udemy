@@ -1,0 +1,40 @@
+html {
+    font-family: 'Lato', sans-serif;
+    padding: 0 2vw;
+    font-size: 36px;
+    background-color: #F5F5F5;
+    color: #5b5851;
+}
+
+.center {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0 5%;
+}
+
+a {
+    color: #5b5851;
+    text-decoration: none;
+}
+a:hover {
+    color: #ccc;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}

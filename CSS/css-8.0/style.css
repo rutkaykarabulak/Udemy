@@ -1,0 +1,24 @@
+html {
+    font-family: 'Lato', sans-serif;
+    font-size: 36px;
+    background-color: #F5F5F5;
+    color: #5b5851;
+}
+
+.box {
+    inline-size: 200px;
+    block-size: 200px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
