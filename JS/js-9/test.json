@@ -1,0 +1,20 @@
+{
+    "products": 
+    [
+        {
+            "name": "air max 720",
+            "price": 179.99,
+            "currency": "USD"
+        },
+        {
+            "name": "macbook pro",
+            "price": 2999.99,
+            "currency": "USD"
+        },
+        {
+            "name": "iphone 14 pro max",
+            "price": 1299.99,
+            "currency": "USD"
+        }
+    ]
+}
