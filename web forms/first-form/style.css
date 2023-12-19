@@ -1,0 +1,36 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact-form {
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+input {
+    margin-inline-end: 20px;
+    display: block;
+    inline-size: 200px;
+}
+
+form button {
+    background-color: #000;
+    border: 2px solid white;
+    block-size: 35px;
+    border-radius: 10px;
+    color:whitesmoke;
+    margin-block-start: 10px;
+}
+
+form button:hover {
+    color: #ccc;
+}
+
+form textarea {
+    display: block;
+    inline-size: 200px;
+}

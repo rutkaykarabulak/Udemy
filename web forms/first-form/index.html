@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Form</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div id="contact-form">
+        <form action="/handle-my-form" method="post">
+            <h3>Contact</h3>
+            <label for="full-name">Name:</label>
+            <input type="text" name="user_name" id="fullname" placeholder="Your name">
+            <label for="email">Email:</label>
+            <input type="email" name="user_email" id="email" placeholder="Your email">
+    
+            <label for="message">Message:</label>
+            <textarea name="user_message" id="message" rows="5">Your Message</textarea>
+            
+
+            <button type="submit">Send your message</button>
+        </form>
+    </div>
+</body>
+</html>
