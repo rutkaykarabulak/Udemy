@@ -1,3 +1,25 @@
 ul {
     list-style-type: none;
 }
+
+form {
+    margin: 15px auto;
+    inline-size: 500px;
+    border: 1px solid #ccc;
+}
+
+ul {
+    padding-left: 0;
+}
+
+fieldset {
+    inline-size: 250px;
+}
+
+input:not([type=radio]) {
+    inline-size: 200px;
+}
+
+form + fieldset {
+    border: 0;
+}
