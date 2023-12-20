@@ -1,0 +1,30 @@
+form {
+    inline-size: 500px;
+    margin: 0 auto;
+    border: 1.5px solid #f1c3d8;
+    border-radius: 2em;
+}
+
+div {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+button {
+    margin: 20px;
+    inline-size: 100px;
+    background-color: #ccc;
+    border-radius: 2em;
+    color: black;
+}
+
+button:hover {
+    background-color: #554c50;
+    color: white;
+    transition: 0.5s;
+}
+
+input {
+    margin-left: 20px;
+    inline-size: 200px;
+}

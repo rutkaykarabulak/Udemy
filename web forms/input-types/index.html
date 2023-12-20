@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Input types</title>
+</head>
+<body>
+    <form>      
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+
+        <div>
+            <label for="search">Search</label>
+            <input type="search" name="search" id="search">
+        </div>
+
+        <div>
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" id="phone">
+        </div>
+
+        <div>
+            <label for="number">Number</label>
+            <input type="number" name="number" id="number" min="0" max="9" step="1">
+        </div>
+
+        <div>
+            <label for="datetime">Datetime</label>
+            <input type="datetime" name="datetime" id="datetime">
+        </div>
+
+        <div>
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+        </div>
+
+        <div>
+            <label for="range">Range</label>
+            <input type="range" name="range" id="range" min="0" max="120" step="1" value="0">
+            <span>0</span>
+        </div>
+
+        <button>Submit</button>
+    </form>
+</body>
+<script>
+    const range = document.querySelector("#range");
+    const span = document.querySelector("span");
+
+    range.addEventListener("input", () => {
+        span.textContent = range.value;
+    })
+</script>
+</html>
