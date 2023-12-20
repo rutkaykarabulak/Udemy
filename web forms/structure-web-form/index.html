@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Structure a Web Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Fruit sizes</legend>
+            <label for="small">Small</label>
+            <input type="radio" name="size" id="small">
+
+            <label for="medium">Medium</label>
+            <input type="radio" name="size" id="medium">
+
+            <label for="large">Large</label>
+            <input type="radio" name="size" id="large">
+        </fieldset>
+    </form>
+
+    <form>
+        <fieldset>
+            <legend><h2>Payment Form</h2></legend>
+            <p>Required fields are followed by <strong><span aria-label="Required">*</span></strong></p>
+
+            <section>
+                <h3>Contact Information</h3>
+                <fieldset>
+                    <legend>Title</legend>
+                    <ul>
+                        <li>
+                            <input type="radio" name="ace" id="ace">
+                            <label for="ace">Ace</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="king" id="king">
+                            <label for="king">King</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="queen" id="queen">
+                            <label for="queen">Queen</label>
+                        </li>
+                    </ul>
+                </fieldset>
+            </section>
+            <section>
+                <ul>
+                    <label for="name">Name: *</label>
+                    <li>
+                        <input type="text" name="user_name" id="name">
+                    </li>
+                    <label for="email">Email: *</label>
+                    <li>
+                        <input type="email" name="user_email" id="email">
+                    </li>
+                    <label for="password">Password: *</label>
+                    <li>
+                        <input type="password" name="user_password" id="password">
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Payment Information</h3>
+                
+                <ul>
+                    <label for="card">Card type:</label>
+                    <li>
+                        <select name="card" id="card">
+                            <option value="0">Visa</option>
+                            <option value="1">Mastercard</option>
+                        </select>
+                    </li>
+                    <label for="cardNumber">Card number: *</label>
+                    <li><input type="number" name="card_number" id="cardNumber">
+                    </li>
+                    <label for="expirationDate">Expiration date: *</label>
+                    <li>
+                        <input type="datetime" name="expirationDate" id="expirationDate" required placeholder="MM/YY">
+                    </li>
+                </ul>
+            </section>
+            <button type="submit">Validate the Payment</button>
+    </form>
+</body>
+</html>
