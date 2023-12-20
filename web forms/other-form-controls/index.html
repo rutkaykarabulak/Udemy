@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Form Controls</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div>
+            <label for="selection">Select:</label>
+            <select name="selecton" id="selection">
+                <optgroup label="fruits">
+                    <option value="banana">Banana</option>
+                    <option value="cherry">Cherry</option>
+                    <option value="peach">Peach</option>
+                </optgroup>
+                <optgroup label="Cars">
+                    <option value="bmw">Bmw</option>
+                    <option value="mcd">Mercedes-benz</option>
+                    <option value="lambo">Lamborghini</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <div>
+            <select id="multi" name="multi" multiple size="2">
+                <optgroup label="fruits">
+                  <option>Banana</option>
+                  <option selected>Cherry</option>
+                  <option>Lemon</option>
+                </optgroup>
+                <optgroup label="vegetables">
+                  <option>Carrot</option>
+                  <option>Eggplant</option>
+                  <option>Potato</option>
+                </optgroup>
+              </select>
+        </div>
+
+        <div>
+            <label for="myFruit">What's your favorite fruit?</label>
+            <input type="text" name="myFruit" id="myFruit" list="mySuggestios">
+            <datalist id="mySuggestios">
+                <option>Apple</option>
+                <option>Banana</option>
+                <option>Blackberry</option>
+                <option>Blueberry</option>
+                <option>Lemon</option>
+                <option>Lychee</option>
+                <option>Peach</option>
+                <option>Pear</option>
+            </datalist>
+        </div>
+
+
+        <div>
+            <meter min="0" max="100" low="33" high="67" optimum="0" value="75">75</meter>
+        </div>
+        <div>
+            <progress value="75" max="100"></progress>
+        </div>
+    </form>
+</body>
+</html>
